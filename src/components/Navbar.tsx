@@ -11,7 +11,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="px-6 py-6 flex justify-between items-center mx-auto lg:max-w-[1140px] max-w-[380px] w-full relative">
+    <nav className="py-6 flex justify-between items-center mx-auto lg:max-w-[1440px] max-w-[380px] w-full relative">
       {/* Logo visível em todas as telas */}
       <div className="flex items-center">
         <Image src="logo.svg" alt="Barba Tech Logo" width={80} height={80} />
@@ -41,25 +41,30 @@ export default function Navbar() {
       </div>
 
       {/* Links de navegação para desktop - escondidos no mobile */}
-      <div className="hidden lg:flex justify-center items-center text-base space-x-8 font-medium leading-5">
-        <a href="#home" className="text-white hover:text-gray-300">
-          Home
-        </a>
-        <a href="#about" className="text-white hover:text-gray-300">
-          About
-        </a>
-        <a href="#projects" className="text-white hover:text-gray-300">
-          Projects
-        </a>
-      </div>
+      <div className="hidden lg:flex items-center gap-8">
+        {/* Links de navegação para desktop */}
+        <div className="flex items-center text-2xl space-x-16 font-semibold leading-5">
+          <a href="#home" className="text-white hover:text-gray-300">
+            Inicio
+          </a>
+          <a href="#about" className="text-white hover:text-gray-300">
+            Sobre
+          </a>
+          <a href="#projects" className="text-white hover:text-gray-300">
+            Projetos
+          </a>
+        </div>
 
-      <div className="hidden lg:block">
-        <a
-          href="#contact"
-          className="bg-button-primary text-white px-6 py-3 w-[200px] rounded-lg hover:bg-button-hover font-semibold"
-        >
-          Contact
-        </a>
+        {/* Botão de contato */}
+        <div>
+          <a
+            href="https://wa.me/5519993171564"
+            target="_blank"
+            className="bg-button-primary text-white px-9 py-3 w-[200px] rounded-lg hover:bg-button-hover font-bold text-2xl"
+          >
+            Contato
+          </a>
+        </div>
       </div>
 
       {/* Menu suspenso para mobile */}
@@ -90,19 +95,19 @@ export default function Navbar() {
               href="#home"
               className="text-xl font-semibold hover:text-gray-300"
             >
-              Home
+              Inicio
             </a>
             <a
               href="#about"
               className="text-xl font-semibold hover:text-gray-300"
             >
-              About Me
+              Sobre mim
             </a>
             <a
               href="#projects"
               className="text-xl font-semibold hover:text-gray-300"
             >
-              Projects
+              Projetos
             </a>
           </div>
 
@@ -111,7 +116,7 @@ export default function Navbar() {
               href="#contact"
               className="bg-button-primary text-white text-xl leading-5 w-[200px] px-6 py-3 rounded-lg hover:bg-button-hover font-semibold flex items-center justify-center"
             >
-              Contact
+              Contato
             </a>
           </div>
         </div>
