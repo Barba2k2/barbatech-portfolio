@@ -38,12 +38,12 @@ export default function Projects() {
             <img
               src="https://cdn.worldvectorlogo.com/logos/go-8.svg"
               alt="Go Lang Logo"
-              className="w-1010h-110 lg:w-12 lg:h-12"
+              className="w-10 h-10 lg:w-12 lg:h-12"
             />
             <img
               src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg"
               alt="Flutter Logo"
-              className="w-1010h-110 lg:w-12 lg:h-12"
+              className="w-10 h-10 lg:w-12 lg:h-12"
             />
           </div>
           <div className="flex flex-row mt-6 lg:mt-10 items-start gap-4">
@@ -93,7 +93,7 @@ export default function Projects() {
               <img
                 src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg"
                 alt="Flutter Logo"
-                className="w-1010h-110 lg:w-12 lg:h-12"
+                className="w-10 h-10 lg:w-12 lg:h-12"
               />
             </div>
             <div className="flex flex-row mt-6 lg:mt-10 items-start gap-4">
