@@ -43,17 +43,17 @@ export default function Contact() {
 
   function onSubmit(data: z.infer<typeof FormSchema>) {
     toast({
-      title: 'Esta funcionalidade está em desenvolvimento, por favor aguarde!',
-      description: (
-        <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
-          <code className="text-white">{JSON.stringify(data, null, 2)}</code>
-        </pre>
-      ),
+      title: "Esta funcionalidade está em desenvolvimento, por favor aguarde!",
+      // description: (
+      //   <pre className="mt-2 w-[340px] rounded-md bg-slate-950 p-4">
+      //     <code className="text-white">{JSON.stringify(data, null, 2)}</code>
+      //   </pre>
+      // ),
     });
   }
 
   return (
-    <div className="px-[60px] py-10">
+    <div className="px-[60px] py-10 lg:max-w-[1440px] mx-auto">
       <div className="flex flex-col mb-10">
         <h1 className="text-4xl lg:text-5xl font-semibold self-center">
           Contato
