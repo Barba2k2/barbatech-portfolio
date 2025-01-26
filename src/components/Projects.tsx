@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <div className="px-[60px] py-10">
+    <div className="px-[60px] py-10 lg:max-w-[1440px] mx-auto">
       <div className="flex flex-col">
         <h1 className="text-4xl lg:text-5xl font-semibold self-center">
           Projetos
