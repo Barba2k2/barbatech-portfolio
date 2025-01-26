@@ -11,7 +11,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="py-6 flex justify-between items-center mx-auto lg:max-w-[1440px] max-w-[380px] w-full relative">
+    <nav className="py-6 px-6 flex justify-between items-center mx-auto lg:max-w-[1440px] max-w-[380px] w-full relative">
       {/* Logo visível em todas as telas */}
       <div className="flex items-center">
         <Image src="logo.svg" alt="Barba Tech Logo" width={80} height={80} />
