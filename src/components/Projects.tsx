@@ -35,12 +35,12 @@ export default function Projects() {
             em uma experiência prática e eficiente.
           </p>
           <div className="flex flex-row mt-6 lg:mt-10 items-start gap-4">
-            <img
+            <Image
               src="https://cdn.worldvectorlogo.com/logos/go-8.svg"
               alt="Go Lang Logo"
               className="w-10 h-10 lg:w-12 lg:h-12"
             />
-            <img
+            <Image
               src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg"
               alt="Flutter Logo"
               className="w-10 h-10 lg:w-12 lg:h-12"
@@ -90,7 +90,7 @@ export default function Projects() {
               de informações rápidas sobre taxas de câmbio.
             </p>
             <div className="flex flex-row mt-6 lg:mt-10 items-start gap-4">
-              <img
+              <Image
                 src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg"
                 alt="Flutter Logo"
                 className="w-10 h-10 lg:w-12 lg:h-12"
@@ -145,7 +145,7 @@ export default function Projects() {
               Zeni e desenvolvimento por Barba Tech.
             </p>
             <div className="flex flex-row mt-6 lg:mt-10 items-start gap-4">
-              <img
+              <Image
                 src="https://cdn.worldvectorlogo.com/logos/next-js.svg"
                 alt="Next.js Logo"
                 className="w-10 h-10 lg:w-12 lg:h-12"
@@ -188,12 +188,12 @@ export default function Projects() {
               acessível.
             </p>
             <div className="flex flex-row mt-6 lg:mt-10 items-start gap-4">
-              <img
+              <Image
                 src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg"
                 alt="Lavarel Logo"
                 className="w-10 h-10 lg:w-12 lg:h-12"
               />
-              <img
+              <Image
                 src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg"
                 alt="Flutter Logo"
                 className="w-10 h-10 lg:w-12 lg:h-12"

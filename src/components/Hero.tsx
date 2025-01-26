@@ -15,7 +15,7 @@ export default function Hero() {
       </p>
 
       <div className="flex flex-col lg:flex-row lg:gap-8 mt-4">
-        <a href="#projects\" target="_blank">
+        <a href="#projects" target="_blank">
           <button
             type="button"
             className="bg-button-secondary hover:bg-button-hover py-3 px-[50px] w-[200px] rounded-lg mt-6 text-blackText text-2xl font-semibold"

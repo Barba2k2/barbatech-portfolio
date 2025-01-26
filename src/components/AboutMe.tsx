@@ -1,4 +1,6 @@
-"use client"
+"use client";
+
+import Image from "next/image";
 
 export default function AboutMe() {
   return (
@@ -17,7 +19,7 @@ export default function AboutMe() {
 
       <ul className="mt-14 flex flex-col lg:flex-row lg:gap-10 gap-4 items-center">
         <li className="flex items-center gap-3 text-base lg:text-2xl">
-          <img
+          <Image
             src="https://cdn.worldvectorlogo.com/logos/next-js.svg"
             alt="Next.js Logo"
             className="w-6 h-6 lg:w-16 lg:h-16"
@@ -25,7 +27,7 @@ export default function AboutMe() {
           <span className="lg:hidden">Next.js</span>
         </li>
         <li className="flex items-center gap-3 text-base lg:text-2xl">
-          <img
+          <Image
             src="https://cdn.worldvectorlogo.com/logos/nestjs.svg"
             alt="Nest.js Logo"
             className="w-6 h-6 lg:w-16 lg:h-16"
@@ -33,7 +35,7 @@ export default function AboutMe() {
           <span className="lg:hidden">Nest.js</span>
         </li>
         <li className="flex items-center gap-3 text-base lg:text-2xl">
-          <img
+          <Image
             src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg"
             alt="Flutter Logo"
             className="w-6 h-6 lg:w-16 lg:h-16"
@@ -41,7 +43,7 @@ export default function AboutMe() {
           <span className="lg:hidden">Flutter</span>
         </li>
         <li className="flex items-center gap-3 text-base lg:text-2xl">
-          <img
+          <Image
             src="https://cdn.worldvectorlogo.com/logos/go-8.svg"
             alt="Go Lang Logo"
             className="w-6 h-6 lg:w-16 lg:h-16"
@@ -49,7 +51,7 @@ export default function AboutMe() {
           <span className="lg:hidden">Go Lang</span>
         </li>
         <li className="flex items-center gap-3 text-base lg:text-2xl">
-          <img
+          <Image
             src="https://cdn.worldvectorlogo.com/logos/python-5.svg"
             alt="Python Logo"
             className="w-6 h-6 lg:w-16 lg:h-16"

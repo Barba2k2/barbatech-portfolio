@@ -41,7 +41,7 @@ export default function Contact() {
     },
   });
 
-  function onSubmit(data: z.infer<typeof FormSchema>) {
+  function onSubmit() {
     toast({
       title: "Esta funcionalidade está em desenvolvimento, por favor aguarde!",
       // description: (
